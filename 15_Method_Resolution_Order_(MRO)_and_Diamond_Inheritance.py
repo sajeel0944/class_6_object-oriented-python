@@ -10,7 +10,7 @@ class C(A):
     def show(self) -> str:
         return ("This is class C")
     
-    
+     
 class D(B, C):
     pass
 

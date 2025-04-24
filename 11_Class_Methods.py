@@ -9,7 +9,7 @@ class Book:
     def increment_book_count(cls) -> str:
         return f"Total Book: {cls.total_books}"
     
-
+ 
 if __name__ in "__main__" :
     book1 : Book = Book()
     book1.add_book()

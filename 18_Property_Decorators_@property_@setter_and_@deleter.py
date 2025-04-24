@@ -59,7 +59,7 @@ class Product:
     def price(self) -> None:
         del self._price
 
-
+ 
 if __name__ in "__main__":
     products : Product = Product("Laptop", 35.32)
     print(products.price)

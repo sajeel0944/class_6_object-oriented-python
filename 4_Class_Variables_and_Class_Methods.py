@@ -1,6 +1,6 @@
 class Bank:
     bank_name : str = "MCB Bank"
-
+ 
     @classmethod
     def change_bank_name(cls, name: str) -> None :
         cls.bank_name = name

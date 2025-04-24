@@ -32,7 +32,7 @@ class Employee_2:
     _salary : int
     __ssn : str
 
-
+ 
 if __name__ in "__main__" :
     emp_2 : Employee_2 = Employee_2("sajeel", 30000, "123-97-6546")
 

@@ -6,7 +6,7 @@ class Shape(ABC):
     def area():
         pass
 
-
+ 
 class Rectangle(Shape):
     def __init__(self, width:  Union[float, int] , height:  Union[float, int] ):
         self.weigth : Union[float, int] = width

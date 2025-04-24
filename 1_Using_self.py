@@ -18,7 +18,7 @@ if __name__ in "__main__" :
 ## use dataclass
 
 from dataclasses import dataclass
-
+ 
 @dataclass
 class Student_2:
     name : float

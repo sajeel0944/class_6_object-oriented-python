@@ -33,7 +33,7 @@ class Person_2:
     def display(slef) -> str:
         return f"Name : {slef.name} and Age : {slef.age}"
     
-
+ 
 @dataclass
 class Teacher_2(Person_2):
     name : str

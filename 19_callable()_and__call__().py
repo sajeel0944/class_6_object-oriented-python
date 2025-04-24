@@ -22,7 +22,7 @@ class Multiplier:
 
     def __call__(self, value: float) -> float:
         return value * self.factor
-    
+     
 
 if __name__ in "__main__":
     user : Multiplier = Multiplier(5)

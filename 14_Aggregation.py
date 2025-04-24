@@ -33,7 +33,7 @@ class Employee:
     def get_info(self) -> str:
         return f"Employee: {self.name}"
     
-
+ 
 @dataclass  
 class Department:
     employee : Employee 

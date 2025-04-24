@@ -7,7 +7,7 @@ def check_age(age : int) -> str:
     else:
         return(f"Age {age} is valid")
 
-
+ 
 if __name__ in "__main__":
     try: 
         print(check_age(23))

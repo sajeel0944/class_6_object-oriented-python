@@ -1,7 +1,7 @@
 class Car:
     def __init__(self):
         self.brand : str = "Toyota"
-
+ 
     def start(self) -> str:
         return f"Engine started!"
     

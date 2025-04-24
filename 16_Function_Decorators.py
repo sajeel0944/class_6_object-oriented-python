@@ -8,6 +8,6 @@ def log_function_call(func):
 @log_function_call
 def say_hello() -> None:
     print("Hello")
-
+ 
 if __name__ in "__main__":
     say_hello()

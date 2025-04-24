@@ -10,7 +10,7 @@ class Person:
     def __init__(self, name: str):
         self.name = name
 
-
+ 
 if __name__ in "__main__":
     person = Person("sajeel")
     print(person.greet())
